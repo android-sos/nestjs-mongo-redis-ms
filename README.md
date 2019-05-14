@@ -34,14 +34,14 @@ Copy Typeorm config example file for database settings
 Set mysql database settings in ormconfig.json
 
     {
-      "type": "mysql",
-      "host": "localhost",
-      "port": 3306,
-      "username": "your-mysql-username",
-      "password": "your-mysql-password",
-      "database": "bintrix_crm",
-      "entities": ["src/**/**.entity{.ts,.js}"],
-      "synchronize": true
+        "type": "mysql",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "username": "bintrix_user",
+        "password": "12345678",
+        "database": "bintrix_crm",
+        "entities": ["src/**/**.entity{.ts,.js}"],
+        "synchronize": true
     }
     
 Start local mysql server and create new database 'bintrix_crm'
